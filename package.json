@@ -1,0 +1,34 @@
+{
+  "name": "Vault",
+  "version": "1.0.0",
+  "description": "``` npm init -y npm install truffle truffle init ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.fangsea.io/panda/vault.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "@uniswap/v3-core": "^1.0.0",
+    "@uniswap/v3-periphery": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@typechain/truffle-v5": "^5.0.0",
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.6.2",
+    "eth-gas-reporter": "^0.2.22",
+    "truffle": "^5.3.8",
+    "truffle-plugin-verify": "^0.5.9"
+  }
+}
